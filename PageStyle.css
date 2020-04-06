@@ -1,0 +1,157 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-color: dimgray;
+}
+
+.container{
+    max-width:80%;
+    background-color: rgb(203, 253, 255);
+    margin: 0px auto;
+    padding:2%;
+    padding-bottom: none;
+}
+.profile-pic{
+    float:left;
+    border:2px solid white;
+    width: 100px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #002b00;
+}
+
+.header-bio{
+    float:left;
+    padding:2.5%;
+}
+
+.header-contact{
+    float: right;
+    padding:2%;
+}
+
+hr{
+    border:3px solid black; 
+    border-bottom: none;
+    margin:20px auto;
+    max-width: 100%;
+}
+
+.div-clear{
+    clear:both;
+}
+
+.header-contact a{
+    text-decoration: none;
+    color:#002b00;
+}
+
+.header-contact a:hover{
+    text-decoration:underline;
+    color:red;
+}
+
+/***********************************
+Personal Information Section Start *
+***********************************/
+
+.personal-section{
+
+}
+
+.left-div{
+    width:30%;
+    float:left;
+}
+
+.right-div{
+    width:70%;
+    float:left;
+}
+
+.common-hr{
+    border:1px solid black;
+    border-bottom: none;
+    width: 100%;
+}
+
+p{
+    text-align:justify;
+}
+
+ul{
+    list-style:none;
+}
+
+.vl {
+    float:left;
+    border-left: 2px solid black;
+    min-height: 80px;
+    width:1%;
+    padding:5px;
+}
+
+.right-left-div{
+    float:left;
+    width:45%;
+}
+
+.right-right-div{
+    float:left;
+    width:45%;
+}
+
+.right-div{
+
+}
+
+.right-div a{
+    text-decoration: none;
+    color:black;
+}
+.right-div a:hover{
+    text-decoration: underline;
+    color:red;
+}
+
+.reference-header{
+    color:black;
+}
+
+/*********************************
+Personal Information Section End *
+*********************************/
+
+
+
+/*********************
+Footer Section Start *
+*********************/
+
+.footer-class{
+    background-color: black;
+    height:100px;
+    color:white;
+    text-align: center;
+}
+
+.footer-class a{
+    text-decoration: none;
+    color:white;
+    padding:2%;
+    margin: 2%;
+}
+
+.footer-class p{
+    padding:20px;
+}
+
+/*******************
+Footer Section End *
+*******************/
